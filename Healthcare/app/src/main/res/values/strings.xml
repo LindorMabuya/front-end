@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Health care</string>
+    <string name="please_select_an_option">Please Select an option</string>
+    <string name="create">Create</string>
+    <string name="read_by_id">Read By ID</string>
+    <string name="read_all">Read All</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="please_enter_the_required_data">Please enter the required data</string>
+    <string name="please_enter_id_to_delete">Please enter ID to delete</string>
+    <string name="submit">Submit</string>
+    <string name="please_enter_id_to_read">Please enter ID to Read</string>
+    <string name="home">Home</string>
+    <string name="all_database_entries">All Database Entries</string>
+    <string name="enter_id_to_delete">Enter ID to delete</string>
+    <string name="enter_first_nam_e">Enter First nam e</string>
+    <string name="enter_last_name">Enter Last name</string>
+    <string name="enter_street">Enter Street</string>
+    <string name="enter_city">Enter City</string>
+    <string name="enter_code">Enter Code</string>
+    <string name="enter_id_to_edit">Enter ID to edit</string>
+    <string name="enter_new_first_name">Enter new First name</string>
+    <string name="enter_new_surname">Enter new Surname</string>
+    <string name="enter_new_street">Enter new Street</string>
+    <string name="enter_new_city">Enter new City</string>
+    <string name="enter_new_code">Enter new code</string>
+</resources>
