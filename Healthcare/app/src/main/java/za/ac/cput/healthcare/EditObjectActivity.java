@@ -40,7 +40,7 @@ public class EditObjectActivity extends AppCompatActivity {
 
     public void onBtnSubmitEditClick(View view)
     {
-
+        new EditClient().execute();
     }
 
     private class EditClient extends AsyncTask<Void,Void,Void>
@@ -74,7 +74,7 @@ public class EditObjectActivity extends AppCompatActivity {
             //Set JSON values
             try {
                 jsonObject.put("name",client.getName());
-                jsonObject.put("price",client.getLastName());
+                jsonObject.put("lastName",client.getLastName());
                 object.put("Street",clientAddress.getStreet());
                 object.put("city",clientAddress.getCity());
                 object.put("code",clientAddress.getCode());
@@ -116,6 +116,7 @@ public class EditObjectActivity extends AppCompatActivity {
             {
                 Intent intent = new Intent(getApplicationContext(),MainMenuActivity.class);
                 startActivity(intent);
+                finish();
             }
         }
     }

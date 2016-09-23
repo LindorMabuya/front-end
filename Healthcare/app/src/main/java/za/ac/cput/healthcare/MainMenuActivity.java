@@ -16,26 +16,30 @@ public class MainMenuActivity extends AppCompatActivity {
     public void onBtnCreateClick(View view) {
         Intent i = new Intent(this,CreateObjectActivity.class);
         startActivity(i);
+        finish();
     }
 
     public void onBtnReadByIDClick(View view) {
         Intent i = new Intent(this,ReadByIDActivity.class);
         startActivity(i);
+        finish();
     }
 
     public void onBtnReadAllClick(View view) {
         Intent i = new Intent(this,ReadAllActivity.class);
         startActivity(i);
-
+        finish();
     }
 
     public void obBtnEditClick(View view) {
         Intent i = new Intent(this,EditObjectActivity.class);
         startActivity(i);
+        finish();
     }
 
     public void onBtnDeleteClick(View view) {
         Intent i = new Intent(this,DeleteObjectActivity.class);
         startActivity(i);
+        finish();
     }
 }

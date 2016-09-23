@@ -77,6 +77,7 @@ public class DeleteObjectActivity extends AppCompatActivity {
            {
                Intent intent = new Intent(getApplicationContext(),MainMenuActivity.class);
                startActivity(intent);
+               finish();
            }
         }
     }

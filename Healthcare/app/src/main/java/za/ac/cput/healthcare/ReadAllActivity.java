@@ -35,6 +35,7 @@ public class ReadAllActivity extends AppCompatActivity {
     {
         Intent i = new Intent(this,MainMenuActivity.class);
         startActivity(i);
+        finish();
     }
 
     private class ReadAllClients extends AsyncTask<Void,Void,Void>
